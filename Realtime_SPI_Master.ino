@@ -904,7 +904,7 @@ void loop() {
     // slave interrupt extra time
     if (aheadDiff > 128) {
       // more for half-full buffer
-      delayMicroseconds(75);
+      delayMicroseconds(175);
     } else {
       // less otherwise
       delayMicroseconds(20);
