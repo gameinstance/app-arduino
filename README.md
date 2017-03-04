@@ -12,3 +12,6 @@ Details on https://www.gameinstance.com/post/25/Serial-Peripheral-Interface
 
 ## ATmega328_PWM_Audio.ino
 Details on https://www.gameinstance.com/post/29/Arduino-Audio-Controller
+
+## Realtime_SPI_Master.ino and Realtime_SPI_Slave_ATmega328.ino
+Details on https://www.gameinstance.com/post/30/Real-time-SPI-transmission
