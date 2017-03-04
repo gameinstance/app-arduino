@@ -1,5 +1,5 @@
 static const int BUFFER_SIZE = 256;         // bytes
-static const long int SAMPLE_DURATION = 55; // microseconds
+static const long int SAMPLE_DURATION = 125; // microseconds
 
 byte readData[BUFFER_SIZE];
 volatile int iw = 0, ir = 0, ow = 0, diff = 0;
