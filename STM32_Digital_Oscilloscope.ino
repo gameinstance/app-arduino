@@ -1,3 +1,12 @@
+/*
+ * STM32 Digital Oscilloscope
+ * using the NT35702 2.4 inch TFT display 
+ * https://www.gameinstance.com/post/33/Simple-STM32-Digital-Oscilloscope
+ * 
+ *  GameInstance.com
+ *  2016-2017
+ */
+
 #include <Adafruit_ILI9341_8bit_STM.h>
 #include <Adafruit_GFX.h>
 
