@@ -263,6 +263,10 @@ class Game {
         // 
         m_bPress[i] = false;
       }
+      // Setting the LCD config as described on 
+      // https://www.gameinstance.com/post/15/The-Snake-game-for-Arduino
+      m_lcd.Config(9, 12, 8, 11, 13, 10);
+      // 
       m_lcd.Start();
       m_lcd.Contrast(45);
       m_lcd.Light();
