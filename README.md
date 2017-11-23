@@ -18,3 +18,6 @@ Details on https://www.gameinstance.com/post/30/Real-time-SPI-transmission
 
 ## STM32_Digital_Oscilloscope.ino
 Details on https://www.gameinstance.com/post/33/Simple-STM32-Digital-Oscilloscope
+
+## NiMH_Battery_Discharger.ino
+Details on https://gameinstance.com/post/54/Arduino-NiMH-Battery-Discharger
