@@ -6,7 +6,7 @@
  */
 
 #include <SPI.h>
-#include <LCDNokia5100.h>
+#include <LCDNokia5110.h>
 
 
 /*
@@ -78,7 +78,7 @@ class Food {
       return true;
     };
     /// draws this onto a given LCD display
-    void Draw(LCDNokia5100 &lcd, byte weight) {
+    void Draw(LCDNokia5110 &lcd, byte weight) {
       // 
       lcd.Rect(m_x, m_y, m_x + weight, m_y + weight - 1, true, true);
     };
@@ -190,7 +190,7 @@ class Snake {
       SetDirection(d);
     };
     /// draws the snake onto the LCD
-    void Draw(LCDNokia5100 &lcd) {
+    void Draw(LCDNokia5110 &lcd) {
       // 
       for (byte i = 0; i < m_Size; i ++) {
         //
@@ -395,7 +395,7 @@ class Game {
     /// the food
     Food m_f;
     /// the display
-    LCDNokia5100 m_lcd;
+    LCDNokia5110 m_lcd;
     /// the array of button states
     bool m_bPress[BUTTON_COUNT];
 };
