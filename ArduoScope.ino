@@ -7,7 +7,7 @@
  */
 
 #include <SPI.h>
-#include <LCDNokia5100.h>
+#include <LCDNokia5110.h>
 
 /// the display width in pixels
 static const byte WIDTH = 84;
@@ -32,7 +32,7 @@ static const int OUTPUT_TEST_PIN = 9;
 /// the state of the automate
 byte state, trigger;
 /// the display
-LCDNokia5100 lcd;
+LCDNokia5110 lcd;
 /// values
 unsigned int value[MAX_SIZE], currentSample, oldSample, triggerCount;
 /// auxiliary values
